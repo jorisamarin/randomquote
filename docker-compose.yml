@@ -1,0 +1,9 @@
+services:
+  flaski:
+    build: .
+    container_name: flaski
+    volumes:
+      - .:/app/src
+    
+
+
